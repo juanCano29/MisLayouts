@@ -1,5 +1,5 @@
 package com.example.juankno4.mislayouts;
-
+/*Que es una metria*/
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
