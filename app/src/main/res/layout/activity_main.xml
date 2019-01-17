@@ -5,6 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="@string/textboton" />
+     <TextView
+         android:id="@+id/lbl1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="0"
+         android:textSize="50dp" />
     <!--  <Button
           android:id="@+id/miboton"
           android:layout_width="match_parent"
@@ -12,18 +26,21 @@
           android:text="@string/sinnombre"
           android:layout_gravity="center"
           />-->
-    <Button
-        android:id="@+id/btn1"
+    <!-- <Button
+         android:id="@+id/btn1"
+         android:layout_width="wrap_content"
+         android:layout_height="50dp"
+         android:layout_gravity="center|bottom"
+         android:text="miboton" />
+    <TextView
+        android:id="@+id/textv"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_gravity="center|bottom"
-        android:text="miboton" />
-   <TextView
-       android:id="@+id/textv"
-       android:layout_width="wrap_content"
-       android:layout_height="50dp"
-       android:layout_gravity="center"
-       android:textSize="15pt" />
+        android:layout_gravity="center"
+        android:textSize="15pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:shadowRadius="4dp"
+        android:shadowColor=""/>-->
     <!--   <LinearLayout
            android:layout_width="160dp"
            android:layout_height="wrap_content"
