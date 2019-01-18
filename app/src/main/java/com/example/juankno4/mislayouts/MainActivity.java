@@ -54,11 +54,11 @@ public class MainActivity extends AppCompatActivity {
                 Random aleatorio = new Random();
                 int a = aleatorio.nextInt(5) + 1;
 
-                Log.i("num", String.valueOf(a));
+                Log.d("num", String.valueOf(a));
 
                 switch (a) {
                     case 1:
-                        lp.gravity = Gravity.TOP;
+                        lp.gravity = Gravity.CENTER;
                         break;
                     case 2:
                         lp.gravity = Gravity.LEFT | Gravity.BOTTOM;
@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                         lp.gravity = Gravity.BOTTOM | Gravity.RIGHT;
                         break;
                 }
-                lp.gravity = Gravity.CENTER;
                 btn1.setLayoutParams(lp);
             }
 
