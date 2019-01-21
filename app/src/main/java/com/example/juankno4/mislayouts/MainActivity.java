@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 Toast.makeText(MainActivity.this,"Se termino", Toast.LENGTH_SHORT).show();
+
             }
         }.start();
 
@@ -101,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
          * *//*
          *//*random del 1 al 5 nos metemos al switch y lo ponemos top y ponemos gravity y se lo asignamos al boton*//*
          *//*formas de dear evento*//*
+         *
                 Random rnd = new Random();
                 int rando = rnd.nextInt(5);
                 FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(-2, -2);
